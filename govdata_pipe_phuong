@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:schema1="http://schema.org/"
+  xmlns:dcatde="http://dcat-ap.de/def/dcatde/"
+  xmlns:spdx="http://spdx.org/rdf/terms#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+>
+  <dcat:Catalog rdf:about="https://ckan.govdata.de">
+    <dct:title>GovData</dct:title>
+    <foaf:homepage rdf:resource="https://ckan.govdata.de"/>
+    <dct:language>de</dct:language>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-06T13:56:15.776589</dct:modified>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-wahlergebnisse_bundestags_landtags-_und_europawahl_stadtbezirke_zeitreihe">
+        <dct:title>Wahlergebnisse (Bundestags, Landtags- und Europawahl) Stadtbezirke Zeitreihe</dct:title>
+        <dct:description>Wahlergebnisse (Bundestags, Landtags- und Europawahl) Stadtbezirke Zeitreihe</dct:description>
+        <dct:identifier>3883</dct:identifier>
+        <dcat:keyword>anteil-afd</dcat:keyword>
+        <dcat:keyword>anteil-cdu</dcat:keyword>
+        <dcat:keyword>anteil-fdp</dcat:keyword>
+        <dcat:keyword>anteil-grüne</dcat:keyword>
+        <dcat:keyword>anteil-linke</dcat:keyword>
+        <dcat:keyword>anteil-spd</dcat:keyword>
+        <dcat:keyword>briefwahlanteil</dcat:keyword>
+        <dcat:keyword>erst-zweitstimmen</dcat:keyword>
+        <dcat:keyword>jahr</dcat:keyword>
+        <dcat:keyword>stadtbezirk</dcat:keyword>
+        <dcat:keyword>wahlart</dcat:keyword>
+        <dcat:keyword>wahlbeteiligung</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-07T11:48:50.653158</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-04T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:nodeID="N27802262586748609c65e48ee1a176ac">
+            <vcard:fn>Sören Werner</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:statistik@stadt.freiburg.de"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:publisher>
+          <foaf:Organization rdf:nodeID="Ne77a74d94929434ba0a337e231051efd">
+            <foaf:name>Stadt Freiburg i. Br.</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N729d119e5469461abd0b998709132c65">
+            <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-01-25T00:00:00</schema1:startDate>
+            <schema1:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-26T00:00:00</schema1:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N9b48ba83d9cc4d4bbd82fe37defd216b">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-01-25T00:00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-26T00:00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:distribution rdf:resource="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-wahlergebnisse_bundestags_landtags-_und_europawahl_stadtbezirke_zeitreihe#dist-csv"/>
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/municipality"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/stadtFreiburgImBreisgau"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/datenBW"/>
+        <dcatde:politicalGeocodingURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="Nf0c25778f24c47efaaee99e14303009a">
+            <locn:adminUnitL2 rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+          </dct:Location>
+        </dct:spatial>
+        <dcatde:maintainer>
+          <foaf:Person rdf:nodeID="N8924dfe4eaf949858feff593c5166341">
+            <foaf:name>Sören Werner</foaf:name>
+          </foaf:Person>
+        </dcatde:maintainer>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-grunddaten_fuer_indikatoren_gesamtstadt_-_soziales">
+        <dct:title>Grunddaten für Indikatoren Gesamtstadt - Soziales</dct:title>
+        <dct:description>Grunddaten für Indikatoren Gesamtstadt - Soziales</dct:description>
+        <dct:identifier>3733</dct:identifier>
+        <dcat:keyword>anzahl-haushalte-asylblg</dcat:keyword>
+        <dcat:keyword>anzahl-haushalte-sgb-xii-inkl.-kof</dcat:keyword>
+        <dcat:keyword>anzahl-personen-asylblg</dcat:keyword>
+        <dcat:keyword>anzahl-personen-eingliederungshilfe-sgb-ix</dcat:keyword>
+        <dcat:keyword>anzahl-personen-grundsicherung-im-alter-sgb-xii</dcat:keyword>
+        <dcat:keyword>anzahl-personen-grundsicherung-sgb-xii</dcat:keyword>
+        <dcat:keyword>anzahl-personen-hilfen-zum-lebensunterhalt-sgb-xii</dcat:keyword>
+        <dcat:keyword>anzahl-personen-hilfen-zur-pflege-sgb-xii</dcat:keyword>
+        <dcat:keyword>anzahl-personen-sgb-xii-inkl.-kof</dcat:keyword>
+        <dcat:keyword>anzahl-personen-sgb-xii-inkl.-kof-im-alter-65</dcat:keyword>
+        <dcat:keyword>anzahl-personen-sgbviii</dcat:keyword>
+        <dcat:keyword>jahr</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-07T11:48:52.591994</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:nodeID="Ne9a2ca566175430d98bfec22afd0284f">
+            <vcard:fn>Sören Werner</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:statistik@stadt.freiburg.de"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:publisher>
+          <foaf:Organization rdf:nodeID="Nd0ca4069337d49ffab2bc7c2e1fe4be4">
+            <foaf:name>Stadt Freiburg i. Br.</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="Nd28dc25cd21c4cb1bffc5fffe6ba608e">
+            <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-31T00:00:00</schema1:startDate>
+            <schema1:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</schema1:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N6e4d33e3e6b7470b85397079522fef02">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-31T00:00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:distribution rdf:resource="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-grunddaten_fuer_indikatoren_gesamtstadt_-_soziales#dist-csv"/>
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/municipality"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/stadtFreiburgImBreisgau"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/datenBW"/>
+        <dcatde:politicalGeocodingURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N7e20960a55e94c2cb658346e2e8847cf">
+            <locn:adminUnitL2 rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+          </dct:Location>
+        </dct:spatial>
+        <dcatde:maintainer>
+          <foaf:Person rdf:nodeID="Nc481266bb68c4cbfa4f85b8f0622d3e8">
+            <foaf:name>Sören Werner</foaf:name>
+          </foaf:Person>
+        </dcatde:maintainer>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-fahrrad-zaehlstellen_zeitreihe">
+        <dct:title>Fahrrad-Zählstellen Zeitreihe</dct:title>
+        <dct:description>Fahrrad-Zählstellen Zeitreihe</dct:description>
+        <dct:identifier>3800</dct:identifier>
+        <dcat:keyword>anzahl-fahrräder</dcat:keyword>
+        <dcat:keyword>datetime</dcat:keyword>
+        <dcat:keyword>datum</dcat:keyword>
+        <dcat:keyword>fahrrad-zählstelle</dcat:keyword>
+        <dcat:keyword>stunde</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-07T11:48:54.940702</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-26T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dcat:contactPoint>
+          <vcard:Organization rdf:nodeID="Nf442489071f4497aa6f397a8ff64b5fd">
+            <vcard:fn>Sören Werner</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:statistik@stadt.freiburg.de"/>
+          </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:publisher>
+          <foaf:Organization rdf:nodeID="Ned87e07f64e1489b91e2049b829ffd08">
+            <foaf:name>Stadt Freiburg i. Br.</foaf:name>
+          </foaf:Organization>
+        </dct:publisher>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N2183c6a014b3480abf6ea1bcf0d981ed">
+            <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01T00:00:00</schema1:startDate>
+            <schema1:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</schema1:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N2635737edc1543da91c6554b6ad60b4b">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01T00:00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:distribution rdf:resource="https://fritz.freiburg.de:8443/duva2dcat/dataset/de-bw-freiburg-fahrrad-zaehlstellen_zeitreihe#dist-csv"/>
+        <dcatde:politicalGeocodingLevelURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/Level/municipality"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/stadtFreiburgImBreisgau"/>
+        <dcatde:contributorID rdf:resource="http://dcat-ap.de/def/contributors/datenBW"/>
+        <dcatde:politicalGeocodingURI rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N34e9b32c71f14d2480d0e7ef480a21de">
+            <locn:adminUnitL2 rdf:resource="http://dcat-ap.de/def/politicalGeocoding/regionalKey/083110000000"/>
+          </dct:Location>
+        </dct:spatial>
+        <dcatde:maintainer>
+          <foaf:Person rdf:nodeID="Ne233adb76cd048ecb7bd79ad1594ce56">
+            <foaf:name>Sören Werner</foaf:name>
+          </foaf:Person>
+        </dcatde:maintainer>
+      </dcat:Dataset>
+    </dcat:dataset>
+</rdf:RDF>
